@@ -142,6 +142,45 @@ main {}
     color: #1c1d1f;
 }
 
+.courses {
+    padding: 0 30px 30px 30px;
+}
+
+.courses h1,
+.courses p {
+    text-align: left;
+
+}
+
+.courses p {
+    font-size: 19px;
+    line-height: 28px;
+    color: #1c1d1f;
+    text-align: left;
+}
+
+.courses h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.all-courses {
+    display: flex;
+
+}
+
+.course :not(.python h4) {
+    margin-left: 30px;
+    color: #1c1d1f;
+}
+
+.python h4 {
+    padding: 0;
+    margin-left: 0;
+}
+
+
+
 .icons {
     display: flex;
     background-color: #f7f9fa;
