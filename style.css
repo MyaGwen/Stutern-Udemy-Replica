@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.link-list ul {
+    /* padding: 0 40px; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: flex;
+    padding: 3px 16px;
+}
+
+.link-list ul li a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: #1c1d1f;
+    /* position: relative; */
+}
+
+footer,
+a {
+    color: white;
+}
+
+/* Footer Section 1 */
+
+.footer-section-1 {
+    position: relative;
+    display: flex;
+    padding: 20px 40px;
+    border-bottom: 1px solid #3e4143;
+}
+
+.footer-section-1 a {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 700;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    border: 1px solid white;
+    height: 15px;
+    width: 150px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Footer section 2 */
+
+
+.footer-section-2 {
+    position: relative;
+    display: flex;
+    padding: 20px 40px;
+    border-bottom: 1px solid #3e4143;
+}
+
+.footer2-text h3 a {
+    text-decoration: none;
+    color: #Cec0fc;
+}
+
+.footer2-companies {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer2-companies img {
+    height: 44px;
+    margin-right: 20px;
+}
+
+
+/* Footer Section 3 */
+
+.footer-section-3 {
+    position: relative;
+
+}
+
+.footer-section-3 ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-section-3 ul li {
+    list-style: none;
+    line-height: 20px;
+    padding: 4px 0;
+    margin-right: 140px;
+    font-size: 14px;
+}
+
+.footer-section-3 ul li a {
+    text-decoration: none;
+}
+
+.footer-section-3 ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer3-language {
+    font-size: 1rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    border: 1px solid white;
+    height: 15px;
+    width: 150px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Footer3-language img {
+    height: 20px;
+    outline: white;
+}
+
+.footer3-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0 32px;
+
+}
+
+.footer3-footer a img {
+    margin-left: 40px;
+    height: 34px;
+}
+
+.footer3-footer p {
+    font-size: 12px;
+    margin-right: 40px;
+}
