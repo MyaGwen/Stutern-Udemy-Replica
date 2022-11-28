@@ -122,11 +122,11 @@ main {}
 .pic-text {
     background-color: white;
     position: absolute;
-    top: 64px;
-    left: 72px;
+    top: 70px;
+    left: 75px;
     text-align: left;
     height: 150px;
-    width: 440px;
+    width: 455px;
     padding: 24px;
 }
 
@@ -135,12 +135,16 @@ main {}
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: left;
+
 }
 
 .pic-text p {
     font-size: 19px;
     line-height: 27px;
     color: #1c1d1f;
+    text-align: left;
+
 }
 
 .courses {
