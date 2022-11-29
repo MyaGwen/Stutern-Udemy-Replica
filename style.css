@@ -196,10 +196,29 @@ viewing {
     width: 100%;
 }
 
+.grid_tab p,
+.grid_tab .instructor,
+.grid_tab .star-rating,
+.grid_tab .figure-rating,
+.grid_tab .price {
+    margin-bottom: 5px;
+}
+
 .instructor {
     display: block;
     color: #666565;
     font-size: 12px;
+}
+
+.figure-rating {
+    margin-right: 0.4rem;
+    color: #b4690e;
+    font-weight: 700;
+}
+
+.total-rating {
+    color: #6a6f73;
+    margin-left: 5px;
 }
 
 .orinal-price {
@@ -215,12 +234,12 @@ viewing {
     display: inline-block;
     text-transform: capitalize;
     margin: 10px 10px 10px 0;
-    color: #333333;
+    color: #666565 !important;
     font-weight: bold;
 }
 
 .course>a:hover {
-    color: #666565;
+    color: #1c1d1f !important;
 }
 
 .course a,
@@ -282,11 +301,23 @@ viewing {
 
 
 .viewing {
-    margin: 40px;
+    margin: 28px;
 }
 
-.viewing .viewing h2 {}
+.viewing h2 {
+    margin-bottom: 20px;
+}
 
+.viewing a .bestseller {
+    display: block;
+    background-color: #eceb98;
+    color: #3d3c0a;
+    font-size: 12px;
+    font-weight: 700;
+    width: 70px;
+    padding: 2px 8px;
+
+}
 
 
 
