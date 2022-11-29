@@ -156,6 +156,12 @@ nav p {
     text-align: left;
 }
 
+.course>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #1c1d1f;
+}
+
 
 
 .course h3 {
