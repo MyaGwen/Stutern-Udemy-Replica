@@ -222,9 +222,16 @@ viewing {
     font-weight: 700;
 }
 
+
+.star-rating {
+    height: 20px;
+    width: 30px;
+}
+
 .total-rating {
     color: #6a6f73;
     margin-left: 5px;
+    font-size: 14px;
 }
 
 .orinal-price {
